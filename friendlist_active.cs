@@ -15,7 +15,7 @@ using Steamworks;
                 EPersonaState friendState = SteamFriends.GetFriendPersonaState(friendSteamId);
                 if (friendState == EPersonaState.k_EPersonaStateOnline)
                 {
-                    Debug.Log(friendName);
+                    //Debug.Log(friendName);
                 }
 
 
